@@ -1,0 +1,39 @@
+{
+  "project": "microbial-colony-counting",
+  "phase": 0,
+  "milestone": "phase-0-agar-schema-and-data-audit",
+  "status": "BLOCKED",
+  "last_verified_milestone": null,
+  "completed_milestones": [],
+  "pending_milestones": [
+    "phase-0-agar-schema-and-data-audit",
+    "phase-1-classical-real-data-and-tuning",
+    "phase-2-agar-training-and-inference",
+    "phase-3-real-evaluation-and-ablation-results",
+    "phase-4-agar-error-analysis",
+    "phase-5-yolo-backed-demo-validation",
+    "phase-6-project-acceptance"
+  ],
+  "active_experiment": null,
+  "blocking_issue": "No authorized AGAR images or annotations are present, and the original PROJECT_SPEC.md was absent. Dataset schema, plate groups, real training, final evaluation, and scientific results cannot be verified until those inputs are supplied.",
+  "next_action": "Resume with an authorized local AGAR package and the original specification if available. Verify source schema, exact duplicates, plate grouping, and frozen split before running validation tuning and training.",
+  "verification": {
+    "environment": "GPU_VERIFIED: Windows 11, isolated CPython 3.12.13, torch 2.14.0+cu130, torchvision 0.29.0+cu130, Ultralytics 8.4.183, RTX 5050 Laptop GPU, compute capability 12.0, NVIDIA driver 592.82; CUDA matmul passed",
+    "system_python": "Python 3.14.5 remains separate with torch 2.12.0+cpu",
+    "project_spec": "MISSING at initial inspection; checked-in requirements baseline reconstructed from user prompt",
+    "dataset": "BLOCKED: no local AGAR manifest, images, or annotations; no access form submitted",
+    "exact_duplicate_detection": "UNIT_VERIFIED with SHA-256 fixture; duplicate-content images join the same split assignment group; not evaluated on AGAR",
+    "data_parser_splits_eda": "UNIT_VERIFIED on synthetic COCO fixtures; AGAR schema, metadata, and plate groups unknown",
+    "classical_pipeline_and_tuning": "UNIT_VERIFIED on synthetic images; validation-only Optuna runner tested for split isolation; no AGAR tuning or inference",
+    "manifest_prediction_runners": "UNIT_VERIFIED with classical image and mocked YOLO runner; confidence and provenance serialization checked",
+    "evaluation_analysis": "UNIT_VERIFIED on known synthetic predictions; count metrics, one-to-one matching, AP, validation threshold selection, image/group bootstrap, Wilcoxon, strata, plots, and saved-output ablation CLI",
+    "yolo_training_inference": "SMOKE_VERIFIED on generated toy data: one epoch, local checkpoint reload, tiled inference and overlay on RTX 5050; not AGAR evidence",
+    "gradio_demo": "SMOKE_VERIFIED: Gradio 6.30.0 Blocks built; classical callback tested; missing checkpoint is explicit; loopback server returned HTTP 200 and was stopped",
+    "tests": "UNIT_VERIFIED: 58 passed in both .venv-ml Python 3.12.13 and system Python 3.14.5",
+    "lint": "STATIC_VERIFIED: Ruff check passed in both Python environments",
+    "dependency_health": "pip check passed in .venv-ml",
+    "project_verify": "UNIT_VERIFIED; results/verification.json has project_verified=false because AGAR manifest and trained checkpoint are absent",
+    "scientific_metrics": "NOT MEASURED; no AGAR images or predictions evaluated"
+  },
+  "updated_at": "2026-10-21T02:05:20+05:30"
+}

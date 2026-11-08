@@ -1,0 +1,114 @@
+{
+  "verification_level": "UNIT_VERIFIED",
+  "project_verified": false,
+  "checks": {
+    "import:numpy": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:cv2": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:PIL": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:yaml": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:scipy": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:matplotlib": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:pytest": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:ruff": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.analysis": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.app": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.classical": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.detection.tiling": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.detection.yolo": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.detection.yolo_data": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.evaluation": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.manifest_inference": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "import:colony_counting.tuning": {
+      "status": "PASS",
+      "detail": "import succeeded"
+    },
+    "config:classical": {
+      "status": "PASS",
+      "detail": "YAML parsed and validated"
+    },
+    "unit_tests": {
+      "status": "PASS",
+      "exit_code": "0",
+      "detail": "..........................................................               [100%]\n58 passed in 3.87s"
+    },
+    "lint": {
+      "status": "PASS",
+      "exit_code": "0",
+      "detail": "All checks passed!"
+    },
+    "smoke": {
+      "status": "PASS",
+      "exit_code": "0",
+      "detail": "Core imports and classical configuration parsing succeeded."
+    },
+    "dataset_manifest": {
+      "status": "BLOCKED",
+      "detail": "No local data/processed/manifest.jsonl exists"
+    },
+    "yolo_checkpoint": {
+      "status": "BLOCKED",
+      "detail": "No trained YOLO checkpoint exists"
+    },
+    "gradio": {
+      "status": "PASS",
+      "detail": "Installed"
+    },
+    "optuna": {
+      "status": "PASS",
+      "detail": "Installed"
+    },
+    "cuda": {
+      "status": "PASS",
+      "detail": "NVIDIA GeForce RTX 5050 Laptop GPU"
+    }
+  },
+  "note": "Code gates do not establish real-data experiments or full project acceptance."
+}

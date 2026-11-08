@@ -1,0 +1,5 @@
+names:
+  0: toy-object
+path: C:\Users\rcho3\Desktop\vinod-code\results\synthetic-yolo-smoke-20261021-014702\dataset
+train: images/train
+val: images/val

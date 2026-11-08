@@ -1,0 +1,13 @@
+{
+  "status": "SMOKE_VERIFIED",
+  "data_kind": "generated synthetic toy images",
+  "is_agar_evidence": false,
+  "trained_epochs": 1,
+  "initial_weights": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\random-init.pt",
+  "training_metadata": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\experiment.json",
+  "checkpoint": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train\\weights\\best.pt",
+  "inference_prediction": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\inference\\prediction.json",
+  "overlay": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\inference\\overlay.png",
+  "predicted_count": 1,
+  "scientific_performance_claim": null
+}

@@ -1,0 +1,37 @@
+{
+  "experiment_id": "synthetic-smoke-20261021-014702",
+  "status": "COMPLETED",
+  "started_at": "2026-10-21T01:47:02.684879+05:30",
+  "completed_at": "2026-10-21T01:47:14.514187+05:30",
+  "config": {
+    "dataset_yaml": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\dataset\\dataset.yaml",
+    "dataset_yaml_sha256": "9f61c51719bc1d95315b06c46f450d4bdbef655a2d517983508166583a267600",
+    "manifest_sha256": null,
+    "weights": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\random-init.pt",
+    "weights_sha256": "19011868e75861a732c7963ab6df03db28d4296ca162b071ddcd49b43f97a65f",
+    "epochs": 1,
+    "image_size": 64,
+    "batch_size": 2,
+    "patience": 1,
+    "seed": 42,
+    "workers": 0,
+    "device": "0",
+    "amp": true
+  },
+  "software": {
+    "python": "3.12.13",
+    "torch": "2.14.0+cu130",
+    "ultralytics": "8.4.183"
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "source_sha256": "57eca1174ba9ac176f60f97df53edbe8dfd90896bf97d63e2d83535fb140bf19",
+  "output_dir": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702",
+  "save_dir": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train",
+  "best_checkpoint": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train\\weights\\best.pt",
+  "last_checkpoint": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train\\weights\\last.pt",
+  "metrics_csv": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train\\results.csv"
+}

@@ -1,0 +1,31 @@
+{
+  "count": 1,
+  "detections": [
+    {
+      "bbox_xyxy": [
+        0.0,
+        0.0,
+        96.0,
+        96.0
+      ],
+      "confidence": 0.012349219992756844,
+      "category_id": 0
+    }
+  ],
+  "checkpoint": "C:\\Users\\rcho3\\Desktop\\vinod-code\\results\\synthetic-yolo-smoke-20261021-014702\\training\\synthetic-smoke-20261021-014702\\train\\weights\\best.pt",
+  "checkpoint_sha256": "76ad2679843d3ba8d8d90fa1b152e4130797bc5e60d493c34cc4a01b85780e0a",
+  "tiled": true,
+  "tile_size": 96,
+  "overlap": 0.0,
+  "nms_iou": 0.5,
+  "device": "0",
+  "class_agnostic_nms": true,
+  "plate_circle": null,
+  "confidence_threshold": 0.01,
+  "inference_seconds": 3.1213137000013376,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  }
+}
